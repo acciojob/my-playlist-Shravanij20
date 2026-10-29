@@ -1,1 +1,60 @@
-/*  your css code here. If applicable */
+body {
+	background-color: rgb(204, 204, 204);
+	font-family: sans-serif;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+/* Playlist Layout Styles based on visual preview */
+.playlist-container {
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	border: 1px solid #000;
+	border-radius: 8px;
+	max-width: 800px;
+	margin: 0 auto 20px auto;
+}
+
+ul {
+	padding-left: 10px;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+li a {
+	text-decoration-line: none;
+	color: #000;
+}
+
+/* Player Containers from Requirement Table */
+.player_one, .player_two {
+	background-color: rgb(255, 255, 255);
+	padding: 20px;
+	border: 1px solid #000;
+	border-radius: 8px;
+	max-width: 800px;
+	margin: 0 auto 20px auto;
+	box-sizing: border-box;
+}
+
+.player_one video {
+	width: 100%;
+	display: block;
+}
+
+.player_two audio {
+	width: 100%;
+	display: block;
+}
+
+.song-title {
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
